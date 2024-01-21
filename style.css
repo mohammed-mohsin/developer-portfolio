@@ -12,6 +12,10 @@
 .mt-32{
     margin-top: 24px;
 }
+
+.s-mt{
+  margin-top: 160px;
+}
 .btn-primary {
   background: #fd6e0a;
   padding: 18px 30px;
@@ -60,7 +64,7 @@ nav {
 
 nav .logo {
   font-size: 45px;
-  font-weight: 800;
+  
 }
 
 nav ul {
@@ -83,6 +87,12 @@ nav ul li a:hover {
 }
 
 /* Hero Part */
+
+.hero-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .hero-part .sub-heading{
     color: #474747;
